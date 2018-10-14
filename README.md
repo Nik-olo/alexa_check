@@ -8,7 +8,11 @@ Returns tuples of country/rank
 <br><br>
 Usage:
 <br>
-<b>python alexa_check.py -d example_domain.com</b>
+<b>python3 alexa_check.py -d example_domain.com</b>
+<br>
+./alexa_check.py -d example_domain.com
+<br>
+python alexa_check.py -d example_domain.com
 <br><br>
 This was developed on Ubuntu 16.04.4 LTS.
 <hr>
