@@ -10,8 +10,7 @@ import re
 
 class AlexaCheck:
     def __init__(self, domain):
-        self.url = "https://www.alexa.com/siteinfo/"
-        self.url += domain
+        self.url = "https://www.alexa.com/siteinfo/" + domain
 
     def __search_regex(self, regex, phrase):
         match = re.search(regex, phrase)
