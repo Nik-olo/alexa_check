@@ -6,7 +6,6 @@
 import requests
 import argparse
 import re
-from sys import exit
 
 
 class AlexaCheck:
