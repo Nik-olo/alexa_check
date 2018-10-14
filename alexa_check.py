@@ -30,7 +30,6 @@ class AlexaCheck:
                     if not found_global:
                         found_global = True
                         yield ("global_rank", found)
-
             if "Flag" in line and "nbsp" in line:
                 perspective = line.replace(',', '')
                 country = self.__search_regex(".*\w+;(.*)</a>", perspective)
