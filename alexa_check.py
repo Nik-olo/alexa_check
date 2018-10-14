@@ -12,7 +12,6 @@ class AlexaCheck:
     def __init__(self, domain):
         self.url = "https://www.alexa.com/siteinfo/"
         self.url += domain
-        self.ranks = []
 
     def __search_regex(self, regex, phrase):
         match = re.search(regex, phrase)
@@ -29,15 +28,14 @@ class AlexaCheck:
                 found = self.__search_regex("(\d+)\s+<", perspective)
                 if found and found[:1] != "0":
                     if not found_global:
-                        self.ranks.append(("global_rank", found))
                         found_global = True
+                        yield ("global_rank", found)
+
             if "Flag" in line and "nbsp" in line:
                 perspective = line.replace(',', '')
                 country = self.__search_regex(".*\w+;(.*)</a>", perspective)
                 country_rank = self.__search_regex(".*>(\d+)<", perspective)
-                self.ranks.append((country, country_rank))
-        for alexa_rank_tuple in self.ranks:
-            yield alexa_rank_tuple
+                yield (country, country_rank)
 
 
 if __name__ == "__main__":
