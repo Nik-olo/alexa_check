@@ -37,8 +37,9 @@ class AlexaCheck:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Enter -d domain.com as argument')
-    parser.add_argument('-d', '--domain', metavar='', required=True, help='Enter a domain: example.com')
+    message = 'Enter a domain: example.com'
+    parser = argparse.ArgumentParser(description='-d domain.com argument')
+    parser.add_argument('-d', '--domain', required=True, help=message)
     domain = vars(parser.parse_args())
     for rank_tuple in AlexaCheck(domain['domain']).check():
         print(rank_tuple)
