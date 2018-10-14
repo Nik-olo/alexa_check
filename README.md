@@ -2,11 +2,13 @@
 <br><br>
 <img src="https://github.com/rootVIII/alexa_check/blob/master/output_screenshot.png" alt="example1" height="675" width="950"><hr>
 <br><br>
-pass a domain as argument with -d option
+Pass a domain as argument with -d option
 <br><br>
-usage:
+Returns tuples of country/rank
 <br><br>
-python alexa_check.py -d example_domain.com
+Usage:
+<br>
+<b>python alexa_check.py -d example_domain.com</b>
 <br><br>
 This was developed on Ubuntu 16.04.4 LTS.
 <hr>
