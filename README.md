@@ -6,6 +6,8 @@ Pass a domain as argument with -d option
 <br><br>
 Returns tuples of country/rank
 <br><br>
+<b>RETURNS RANKING FOR ALL COUNTRIES AVAILABLE (EVEN ONES THAT AREN'T VISIBLE ON WEB UI)</b>
+<br><br>
 Usage:
 <br>
 <b>python3 alexa_check.py -d example_domain.com</b>
