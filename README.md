@@ -10,12 +10,20 @@ Returns tuples of country/rank
 <br><br>
 Usage:
 <br>
-<b>python3 alexa_check.py -d example_domain.com</b>
+<code>
+  python3 alexa_check.py -d example_domain.com
+</code>
 <br>
-./alexa_check.py -d example_domain.com
+<code>
+  ./alexa_check.py -d example_domain.com
+</code>
 <br>
-python alexa_check.py -d example_domain.com
+<code>
+  python alexa_check.py -d example_domain.com
+</code>
 <br><br>
+
+
 This was developed on Ubuntu 16.04.4 LTS.
 <hr>
 <b>Author: James Loye Colley  14OCT2018</b><br><br>
