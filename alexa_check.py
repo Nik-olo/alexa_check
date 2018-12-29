@@ -40,6 +40,6 @@ if __name__ == "__main__":
     message = 'Enter a domain: example.com'
     parser = argparse.ArgumentParser(description='-d domain.com argument')
     parser.add_argument('-d', '--domain', required=True, help=message)
-    domain = vars(parser.parse_args())
-    for rank_tuple in AlexaCheck(domain['domain']).check():
+    d = parser.parse_args()
+    for rank_tuple in AlexaCheck(d.domain).check():
         print(rank_tuple)
