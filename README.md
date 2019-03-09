@@ -6,7 +6,7 @@ Pass a domain as argument with -d option
 <br><br>
 Returns tuples of country/rank
 <br><br>
-<b>RETURNS RANKINGS FOR ALL COUNTRIES AVAILABLE (EVEN ONES THAT AREN'T VISIBLE ON WEB UI)</b>
+<b>RETURNS RANKINGS FOR ALL COUNTRIES AVAILABLE (EVEN ONES THAT ARE NOT VISIBLE ON THE WEB UI)</b>
 <br><br>
 Usage:
 <br>
