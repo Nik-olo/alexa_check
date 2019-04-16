@@ -58,7 +58,7 @@ class AlexaCheck:
 
 
 if __name__ == "__main__":
-    message = 'Usage: python -d <domain.com>'
+    message = 'Usage: python alexa_check.py -d <domain.com>'
     h = '-d domain.com argument'
     parser = ArgumentParser(description=message)
     parser.add_argument('-d', '--domain', required=True, help=h)
