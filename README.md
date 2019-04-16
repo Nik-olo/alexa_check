@@ -13,6 +13,7 @@ Returns tuples of country/rank
 <b>RETURNS RANKINGS FOR ALL COUNTRIES AVAILABLE (EVEN ONES THAT ARE NOT VISIBLE ON THE WEB UI)</b>
 
 - passes pep8/pycodestyle
+
 Usage:
 <br>
 <code>
