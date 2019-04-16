@@ -1,9 +1,7 @@
 # rootVIII
 # Check a domain's Alexa rank via command line
-#
 # Pass a domain as an argument with the -d option
-#
-# usage: python alexa_check.py -d example.com
+# Usage: python alexa_check.py -d example.com
 #
 from argparse import ArgumentParser
 from re import search
