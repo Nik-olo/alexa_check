@@ -11,18 +11,17 @@ Returns tuples of country/rank
 Usage:
 <br>
 <code>
-  python3 alexa_check.py -d example_domain.com
-</code>
-<br>
-<code>
-  ./alexa_check.py -d example_domain.com
+  Requirements: Runs on any system with Python 2 or Python 3
 </code>
 <br>
 <code>
   python alexa_check.py -d example_domain.com
 </code>
+<br>
+<code>
+  python3 alexa_check.py -d example_domain.com
+</code>
 <br><br>
-
 
 This was developed on Ubuntu 16.04.4 LTS.
 <hr>
