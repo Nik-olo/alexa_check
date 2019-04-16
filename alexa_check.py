@@ -24,7 +24,7 @@ class AlexaCheck:
             return match.group(1)
         return None
 
-    def get(self):
+    def http_get(self):
         if version_info[0] != 2:
             r = urlopen(self.url)
             self.page = r.read().decode('utf-8').split("\n")
@@ -35,7 +35,7 @@ class AlexaCheck:
 
     def check(self):
         try:
-            self.get()
+            self.http_get()
         except Exception as error:
             print(error)
             exit(1)
