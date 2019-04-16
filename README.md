@@ -2,6 +2,10 @@
 <br><br>
 <img src="https://github.com/rootVIII/alexa_check/blob/master/output_screenshot.png" alt="example1" height="675" width="950"><hr>
 <br><br>
+<code>
+  Requirements: Runs on any system with Python 2 or Python 3
+</code>
+<br><br>
 Pass a domain as argument with -d option
 <br><br>
 Returns tuples of country/rank
@@ -10,9 +14,6 @@ Returns tuples of country/rank
 <br><br>
 Usage:
 <br>
-<code>
-  Requirements: Runs on any system with Python 2 or Python 3
-</code>
 <br>
 <code>
   python alexa_check.py -d example_domain.com
