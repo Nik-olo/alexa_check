@@ -15,7 +15,6 @@ Returns tuples of country/rank
 - passes pep8/pycodestyle
 Usage:
 <br>
-<br>
 <code>
   python alexa_check.py -d example_domain.com
 </code>
