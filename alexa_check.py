@@ -24,6 +24,7 @@ class AlexaCheck:
         match = search(regex, phrase)
         if match:
             return match.group(1)
+        return None
 
     def get(self):
         if version_info[0] != 2:
